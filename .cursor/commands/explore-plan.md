@@ -2,6 +2,24 @@
 #$ARGUMENTS
 <user_request>
 
+## 🤖 Contexto Estratégico
+
+**IMPORTANTE:** Antes de comenzar, consulta y usa como guía el agente `.cursor/agents/product-manager-saas-restaurant.md` para:
+- Alinear el plan con la visión y estrategia de producto
+- Considerar los 4 pilares estratégicos (AUTOMATED, SMART, INTUITIVE, GUEST-CENTRIC) en el diseño
+- Evaluar cómo el plan contribuye a las metas 2025
+- Asegurar que las decisiones impulsen más huéspedes leales y simplifiquen operaciones
+- Aplicar los principios de decisión del agente durante todo el proceso
+
+## 🔧 Agentes Técnicos
+
+**IMPORTANTE:** Durante la fase de **Advice**, usa los agentes técnicos apropiados en paralelo para obtener conocimiento y asesoramiento sobre el plan:
+
+- **Frontend**: Si el plan involucra componentes React/UI, invoca `.cursor/agents/frontend-developer.md` para asesoramiento sobre arquitectura frontend
+- **Backend**: Si el plan involucra APIs o lógica de negocio, invoca `.cursor/agents/hexagonal-backend-architect.md` para asesoramiento sobre arquitectura backend
+- **QA**: Invoca `.cursor/agents/qa-criteria-validator.md` para definir criterios de aceptación y estrategias de testing
+- **UI/UX**: Si el plan tiene componentes visuales, invoca `.cursor/agents/ui-ux-analyzer.md` para asesoramiento sobre diseño
+
 At the end of this message, I will ask you to do something. Please follow the "Explore, Team Selection, Plan, Advice, Update, Clarification and Iterate" workflow when you start over the user_request.
 
 # Create the session file
@@ -44,3 +62,4 @@ The target of this session is to create the plan DON'T implement it
 - Consider Python/FastAPI for backend and React/Vite for frontend
 - Use pytest for backend tests, Vitest/Jest for frontend tests
 - This is a Product Management tool, focus on discovery and research capabilities
+
