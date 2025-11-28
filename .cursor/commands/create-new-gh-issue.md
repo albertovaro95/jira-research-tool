@@ -2,6 +2,24 @@
 #$ARGUMENTS
 </context_session_file>
 
+## 🤖 Contexto Estratégico
+
+**IMPORTANTE:** Antes de comenzar, consulta y usa como guía el agente `.cursor/agents/product-manager-saas-restaurant.md` para:
+- Alinear la feature/bug/chore con la visión y estrategia de producto
+- Evaluar cómo contribuye a los 4 pilares estratégicos (AUTOMATED, SMART, INTUITIVE, GUEST-CENTRIC)
+- Considerar el impacto en las metas 2025 al definir el problema y valor de usuario
+- Asegurar que el valor de usuario esté alineado con simplificar operaciones o empoderar huéspedes
+- Aplicar los principios de decisión del agente al estructurar el issue
+
+## 🔧 Agentes Técnicos
+
+**IMPORTANTE:** Para enriquecer el issue con detalles técnicos y de implementación, consulta los agentes técnicos apropiados:
+
+- **Frontend**: Si la feature/bug involucra React/UI, consulta `.cursor/agents/frontend-developer.md` para detalles de implementación frontend
+- **Backend**: Si la feature/bug involucra APIs o lógica de negocio, consulta `.cursor/agents/hexagonal-backend-architect.md` para detalles de arquitectura backend
+- **QA**: Consulta `.cursor/agents/qa-criteria-validator.md` para incluir criterios de aceptación y casos de prueba en el issue
+- **UI/UX**: Si la feature tiene componentes visuales, consulta `.cursor/agents/ui-ux-analyzer.md` para consideraciones de diseño
+
 # Create New GitHub Issue for Feature
 ## Input
 Feature/Bug/Chore plan: $ARGUMENTS
@@ -60,3 +78,4 @@ Tell me the issue number and URL when done.
 - Make testing steps concrete and actionable
 - Focus on user benefits, not technical details
 - Triage and use the correct term in the issue: it's a feature, a bug or a chore?
+

@@ -2,6 +2,23 @@
 
 Este command ayuda a Product Managers a analizar y entender issues de Jira para discovery y research.
 
+## 🤖 Contexto Estratégico
+
+**IMPORTANTE:** Antes de comenzar, consulta y usa como guía el agente `.cursor/agents/product-manager-saas-restaurant.md` para:
+- Alinear el análisis con la visión y estrategia de producto
+- Evaluar cómo el issue contribuye a los 4 pilares estratégicos (AUTOMATED, SMART, INTUITIVE, GUEST-CENTRIC)
+- Considerar el impacto en las metas 2025 (Hard-to-Copy, ICP Customers Delighting, Margin Enhancing)
+- Asegurar que las recomendaciones impulsen más huéspedes leales y simplifiquen operaciones
+
+## 🔧 Agentes Técnicos
+
+**IMPORTANTE:** Para análisis técnico profundo del issue, consulta los agentes técnicos según corresponda:
+
+- **Frontend**: Si el issue involucra componentes React/UI, consulta `.cursor/agents/frontend-developer.md` para análisis de arquitectura frontend
+- **Backend**: Si el issue involucra APIs o lógica de negocio, consulta `.cursor/agents/hexagonal-backend-architect.md` para análisis de arquitectura backend
+- **QA**: Consulta `.cursor/agents/qa-criteria-validator.md` para evaluar y mejorar criterios de aceptación
+- **UI/UX**: Si el issue tiene componentes visuales, consulta `.cursor/agents/ui-ux-analyzer.md` para análisis de diseño
+
 ## 📋 Fase 1: Lectura y Análisis de Jira Issue #$ARGUMENT$
 
 ### 1.1 Setup Inicial
@@ -55,3 +72,4 @@ Al finalizar este proceso:
 - ✅ Documentación de análisis creada
 - ✅ Plan de research/discovery (si aplica)
 - ✅ Recomendaciones para el equipo
+
